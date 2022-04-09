@@ -1,15 +1,26 @@
-.title {
+.title-banner.title {
     color: rgba(104, 67, 207, 0.836);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 36px;
-    padding: 20px;
+    padding-top: 10px;
+}
+
+.title-banner.blurb {
+    color: rgba(104, 67, 207, 0.836);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: -14px;
 }
 
 .main-horizontal {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 60px;
+    align-items: center;
+    gap: 20px;
     padding-top: 40px;
 }
 
@@ -27,9 +38,10 @@
     font-weight: 500;
     border-radius: 16px;
     border-width: 2px;
-    height: 400px;
-    width: 600px;
+    height: 350px;
+    width: 800px;
     padding: 20px;
+    margin-bottom: 10px;
     overflow-y: scroll;
 }
 
@@ -39,9 +51,9 @@
     color: rgba(104, 67, 207, 0.836);
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
-    height: 30px;
-    width: 400px;
-    padding: 20px;
+    height: 50px;
+    width: 420px;
+    padding: 10px;
     overflow-y: scroll;
 }
 
@@ -52,5 +64,6 @@
     font-weight: 500;
     border: none;
     color: white;
-    height: 40px;
+    height: 70px;
+    width: 440px;
 }
