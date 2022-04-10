@@ -2,17 +2,17 @@
     color: rgba(104, 67, 207, 0.836);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    font-size: 36px;
-    padding-top: 10px;
+    font-size: 2.25rem;
+    padding-top: 0.625rem;
 }
 
 .title-banner.blurb {
     color: rgba(104, 67, 207, 0.836);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.25rem;
     font-weight: 500;
-    padding-top: -14px;
+    padding-top: -0.875rem;
 }
 
 .main-horizontal {
@@ -20,15 +20,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding-top: 40px;
+    gap: 1.25rem;
+    padding-top: 2.5rem;
 }
 
 .right-vertical {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .text-input {
@@ -36,36 +36,39 @@
     color: rgba(104, 67, 207, 0.836);
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
-    border-radius: 16px;
-    border-width: 2px;
-    height: 350px;
-    width: 800px;
-    padding: 20px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 1rem;
+    border-width: 0.125rem;
+    height: 21.875rem;
+    width: 50rem;
+    padding: 1.25rem;
+    margin-bottom: 0.625rem;
     overflow-y: scroll;
 }
 
 .query-input {
     border-style: solid;
-    border-radius: 16px;
+    border-radius: 1rem;
     color: rgba(104, 67, 207, 0.836);
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
-    height: 50px;
-    width: 420px;
-    padding: 10px;
+    font-size: 16px;
+    height: 3.125rem;
+    width: 26.25rem;
+    padding: 0.625rem;
     overflow-y: scroll;
 }
 
 .search-btn {
     background-color: rgba(104, 67, 207, 0.836);
-    border-radius: 16px;
+    border-radius: 1rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
+    font-size: 16px;
     border: none;
     color: white;
-    height: 70px;
-    width: 440px;
+    height: 4.375rem;
+    width: 27.5rem;
 }
 
 .search-btn:hover {
