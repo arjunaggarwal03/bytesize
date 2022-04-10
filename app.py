@@ -11,7 +11,7 @@ def index():
 def query_form():
     text = (request.form['text'],request.form['text2'])
     print(text)
-    return render_template('results.html')
+    return render_template('results.html',value=["test1","test2","test3","test4","test5"])
 
 if __name__ == '__main__':
     app.run()

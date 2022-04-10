@@ -49,9 +49,3 @@ top_similar = get_top_similar(sentence, sentences_list, similarity_matrix, 5)
 # printing the list using loop 
 for x in range(len(top_similar)): 
     print(top_similar[x])
-
-
-from flask import Flask
-app = Flask(app.py)
-
-@app.route("/")
