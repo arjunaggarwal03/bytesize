@@ -5,14 +5,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    # print(Document.getElementById(Document, "input-text"))
     return render_template('index.html')
 
 @app.route('/', methods=['POST'])
 def query_form():
     text = (request.form['text'],request.form['text2'])
     print(text)
-    return text
+    return render_template('results.html')
 
 if __name__ == '__main__':
     app.run()

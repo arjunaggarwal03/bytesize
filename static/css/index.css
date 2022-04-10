@@ -67,3 +67,8 @@
     height: 70px;
     width: 440px;
 }
+
+.search-btn:hover {
+    background-color: rgba(136, 104, 226, 0.836);
+    cursor: pointer;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/index.css') }}">
     <title>bitcamp💯</title>
 </head>
 <body>
@@ -12,11 +12,10 @@
     <!-- text input forms -->
     <form method="POST">
         <div class="main-horizontal">
-            <textarea class="text-input" name="text" placeholder="Enter text here..."></textarea>
-            <!-- <div class="right-vertical"> -->
+            <textarea class="text-input transform" name="text" placeholder="Enter text here..."></textarea>
             <input class="query-input" name="text2" placeholder="What are you looking for?">
-            <input class="search-btn" type="submit" placeholder="search">
-            <!-- </div> -->
+            <!-- submit button -->
+            <input class="search-btn" id="submit-button" type="submit" placeholder="search">
         </div>
     </form>
 </body>
