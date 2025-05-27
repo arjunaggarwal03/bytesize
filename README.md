@@ -6,6 +6,12 @@ ByteSize allows users to find information in documents with phrases and related 
 
 Credit for model: [Semantic Similarity model](https://towardsdatascience.com/semantic-similarity-using-transformers-8f3cb5bf66d6)
 
+## Project Design
+
+![Design](GitDiagram.png)
+
+Credit for diagram: [GitDiagram](https://gitdiagram.com/)
+
 ## Demo
 
 ![Website Image](website_image.png)
